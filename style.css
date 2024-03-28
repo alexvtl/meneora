@@ -113,6 +113,15 @@ ul {
   background-color: rgb(121, 6, 121);
 }
 
+.nav_icon {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.spotify {
+  width: 40px;
+}
+
 .photoone {
   height: 300px;
   width: 300px;
@@ -432,6 +441,14 @@ a {
 }
 .link_calendly:hover {
   background-color: rgba(130, 0, 130);
+}
+
+#spotify {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
 }
 
 footer {
